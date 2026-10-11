@@ -17,7 +17,7 @@ export default function HobbiesCarousel() {
           </div>
           <div>
             <h3 className="text-2xl font-bold text-white tracking-wide">
-              Além do <span className="text-blue-400">Código</span>
+              Extra <span className="text-blue-400">Código</span>
             </h3>
             <p className="text-xs font-mono text-zinc-500">
               Hobbies e interesses criativos ({currentIndex + 1} de {HOBBIES_DATA.length})
