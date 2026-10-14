@@ -150,7 +150,7 @@ export default function Terminal({ activeSection, onSelectSection }: TerminalPro
               <div key={item.id} className="space-y-1 animate-in fade-in duration-150">
                 <div className="flex items-center gap-2 text-xs text-zinc-400">
                   <span className="text-emerald-400 font-bold">➜</span>
-                  <span className="text-cyan-400 font-semibold">matheus@portifolio:~$</span>
+                  <span className="text-cyan-400 font-semibold">matheus@portfolio:~$</span>
                   <span className="text-[10px] text-zinc-500 ml-auto font-sans">{item.time}</span>
                 </div>
                 <div className="pl-4 py-0.5 border-l-2 border-zinc-800 text-zinc-200">
@@ -162,7 +162,7 @@ export default function Terminal({ activeSection, onSelectSection }: TerminalPro
             {/* Active Input Line */}
             <div className="flex items-center gap-2 pt-1">
               <span className="text-emerald-400 font-bold">➜</span>
-              <span className="text-cyan-400 font-semibold hidden sm:inline">matheus@portifolio:~$</span>
+              <span className="text-cyan-400 font-semibold hidden sm:inline">matheus@portfolio:~$</span>
               <input
                 ref={inputRef}
                 type="text"

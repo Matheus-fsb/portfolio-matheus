@@ -9,7 +9,7 @@ export const PROJECTS_DATA: Project[] = [
       "Portfólio interativo construído com Next.js 16 e React 19, simulando um terminal zsh com histórico de comandos, navegação suave e design dark tech de alta performance.",
     category: "fullstack",
     tags: ["Next.js 16", "React 19", "Tailwind CSS v4", "TypeScript"],
-    githubUrl: "https://github.com/Matheus-fsb/portifolio-matheus",
+    githubUrl: "https://github.com/Matheus-fsb/portfolio-matheus",
     demoUrl: "#terminal",
     status: "finalizado",
   },
